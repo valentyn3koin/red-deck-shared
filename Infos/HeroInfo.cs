@@ -3,6 +3,7 @@
     public class HeroInfo
     {
         public string Uid { get; set; }
+        public string HeroDataID { get; set; }
         public int Health { get; set; }
         public int Armor { get; set; }
     }
