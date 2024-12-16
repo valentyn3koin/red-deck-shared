@@ -1,4 +1,6 @@
-﻿namespace ServerTCP.Gaming.Datas
+﻿using System.Collections.Generic;
+
+namespace ServerTCP.Gaming.Datas
 {
     public class TavernData
     {

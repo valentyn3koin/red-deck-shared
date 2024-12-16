@@ -1,5 +1,4 @@
 ﻿using ServerTCP.Gaming.Enums;
-using ServerTCP.Gaming.Models;
 
 namespace ServerTCP.Gaming.Datas
 {
