@@ -1,12 +1,13 @@
-﻿using ServerTCP.Gaming.Infos;
+﻿using System;
+using System.Collections.Generic;
+using ServerTCP.Gaming.Infos;
 
 namespace ServerTCP.Gaming.DTO
 {
     public class RefreshTripletDTOMessage
     {
-        public bool IsDirty;
-        public List<string> RemovedCardUids;
-        public CardInfo CreatedNewModel;
+        public List<string> RemovedCardUids { get; set; } = new List<string>();
+        public CardInfo CreatedNewModel { get; set; } 
     
         [NonSerialized] public string UserId;
     }

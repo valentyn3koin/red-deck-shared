@@ -1,4 +1,5 @@
-﻿using ServerTCP.Gaming.Infos;
+﻿using System.Collections.Generic;
+using ServerTCP.Gaming.Infos;
 
 namespace ServerTCP.Gaming.Messages
 {

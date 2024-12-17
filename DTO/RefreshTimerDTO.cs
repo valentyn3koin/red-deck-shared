@@ -2,7 +2,6 @@
 {
     public class RefreshTimerDTO
     {
-        public bool IsDirty;
-        public int TimeLeft;
+        public int TimeLeft { get; set; }
     }
 }

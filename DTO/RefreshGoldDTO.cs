@@ -1,14 +1,10 @@
-﻿using System;
-
-namespace ServerTCP.Gaming.DTO
+﻿namespace ServerTCP.Gaming.DTO
 {
-    public class RefreshGoldDTOMessage
+    public class RefreshGoldDTO
     {
         public int Gold { get; set; }
         public int MaxGold { get; set; }
         public int GoldCostTavernUpgrade { get; set; }
         public int GoldCostRefresh { get; set; }
-    
-        [NonSerialized] public string UserId;
     }
 }
