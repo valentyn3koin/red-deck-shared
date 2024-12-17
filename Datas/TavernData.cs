@@ -10,9 +10,10 @@ namespace ServerTCP.Gaming.Datas
         public int StartGold;
         public int MaxTavernLevel;
         public int MaxAmountCardInTable;
-        public int MaxAmountCardInDeck;
-        public List<TavernUpdateInfo> TavernUpdateInfos;
         public int MaxAmountCardInHand;
+        public float SpeedAnimation;
+        
+        public List<TavernUpdateInfo> TavernUpdateInfos;
 
         public TavernUpdateInfo GetTavernUpdateInfo(int level)
         {
