@@ -1,6 +1,5 @@
 using ServerTCP.Gaming.Enums;
-
-namespace ServerTCP.Utils.DataScripts
+namespace ServerTCP.Submodule.Datas
 {
     public class DeckData
     {
