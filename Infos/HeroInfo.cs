@@ -1,4 +1,6 @@
-﻿namespace ServerTCP.Gaming.Infos
+﻿using System.Collections.Generic;
+
+namespace ServerTCP.Gaming.Infos
 {
     public class HeroInfo
     {
@@ -9,5 +11,11 @@
         public int Armor { get; set; }
         public bool IsSkillUsed { get; set; }
         public AbilityInfo AbilityModel { get; set; }
+        
+        public int TavernLevel { get; set; }
+        public string FavoriteType { get; set; }
+        public int FavoriteAmount { get; set; }
+        public int TripletAmount { get; set; }
+        public List<BattleHistory> BattleHistories { get; set; }
     }
 }
