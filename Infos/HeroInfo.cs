@@ -8,5 +8,6 @@
         public int Health { get; set; }
         public int Armor { get; set; }
         public bool IsSkillUsed { get; set; }
+        public AbilityInfo AbilityModel { get; set; }
     }
 }

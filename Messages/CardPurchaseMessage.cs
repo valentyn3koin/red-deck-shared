@@ -2,6 +2,6 @@
 {
     public class CardPurchaseMessage
     {
-        public string CardUid{ get; set; }
+        public string CardUid { get; set; }
     }
 }
