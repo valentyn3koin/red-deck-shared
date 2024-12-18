@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using RedDeck.Cards;
 
 namespace ServerTCP.Gaming.Infos
 {
