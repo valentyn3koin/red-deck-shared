@@ -1,5 +1,5 @@
-﻿using ServerTCP.Gaming.Enums;
-using ServerTCP.Gaming.Models;
+﻿using System;
+using ServerTCP.Gaming.Enums;
 
 namespace ServerTCP.Gaming.Datas
 {
@@ -58,11 +58,6 @@ namespace ServerTCP.Gaming.Datas
         }
         */
         public AbilityData[] ChainAbilities()
-        {
-            throw new NotImplementedException();
-        }
-
-        public AbilityModel CreateModel()
         {
             throw new NotImplementedException();
         }
