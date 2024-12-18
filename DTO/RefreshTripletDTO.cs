@@ -4,7 +4,7 @@ using ServerTCP.Gaming.Infos;
 
 namespace ServerTCP.Gaming.DTO
 {
-    public class RefreshTripletDTOMessage
+    public class RefreshTripletDTO
     {
         public List<string> RemovedCardUids { get; set; } = new List<string>();
         public CardInfo CreatedNewModel { get; set; } 

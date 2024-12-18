@@ -5,11 +5,12 @@ using ServerTCP.Gaming.Infos;
 
 namespace ServerTCP.Gaming.DTO
 {
-    public class ChangeMinionsOnTavernDTOMessage
+    public class ChangeMinionsOnHandDTO
     {
-        public List<CardInfo> TavernMinions { get; set; } = new List<CardInfo>();
+        public PutTypeMinion PutTypeMinion { get;set; }
         public ChangeType ChangeType { get; set; }
-    
+        public List<CardInfo> HandMinions { get; set; } = new List<CardInfo>();
+
         [NonSerialized] public string UserId;
     }
 }
