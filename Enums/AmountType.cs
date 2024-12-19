@@ -2,7 +2,9 @@
 {
     public enum AmountType
     {
-        AmountTypeMinionsOnBoard,
-        Value
+        Value = 0,
+        AmountTypeMinionsOnBoard = 1,
+        None = 2,
+        CurrentMissingHeroHealth = 3,
     }
 }
