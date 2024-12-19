@@ -1,4 +1,5 @@
-﻿using ServerTCP.Gaming.Enums;
+﻿using System;
+using ServerTCP.Gaming.Enums;
 using ServerTCP.Gaming.Infos;
 
 namespace ServerTCP.Gaming.DTO
