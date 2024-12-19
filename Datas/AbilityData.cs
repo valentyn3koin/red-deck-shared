@@ -5,6 +5,7 @@ namespace ServerTCP.Gaming.Datas
 {
     public class AbilityData
     {
+        public ScriptableObjectType scriptableType;
         public string ID;
         public TargetType TargetType;
         public AbilityTrigger Trigger;

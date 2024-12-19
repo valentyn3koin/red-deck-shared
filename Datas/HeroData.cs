@@ -2,6 +2,7 @@
 {
     public class HeroData
     {
+        public ScriptableObjectType scriptableType;
         public string Id;
         public string Name;
         public int Armor;

@@ -4,6 +4,7 @@ namespace ServerTCP.Gaming.Datas
 {
     public class TavernData
     {
+        public ScriptableObjectType scriptableType;
         public int CostReset;
         public int CostBuyCard;
         public int RoundTime;

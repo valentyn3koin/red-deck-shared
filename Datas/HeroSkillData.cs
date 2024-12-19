@@ -2,6 +2,7 @@
 {
     public class HeroSkillData
     {
+        public ScriptableObjectType scriptableType;
         public string Id;
         public string SkillName;
         public string Description;
