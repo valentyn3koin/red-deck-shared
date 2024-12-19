@@ -1,4 +1,6 @@
-﻿namespace ServerTCP.Gaming.DTO
+﻿using System;
+
+namespace ServerTCP.Gaming.DTO
 {
     public class UpgradeTavernDTO
     {
