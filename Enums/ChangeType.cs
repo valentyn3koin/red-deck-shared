@@ -3,6 +3,9 @@
     public enum ChangeType
     {
         Remove,
-        Add
+        Add,
+        Freeze,
+        Unfreeze,
+        Buff
     }
 }

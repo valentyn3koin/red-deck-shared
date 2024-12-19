@@ -7,5 +7,6 @@ namespace ServerTCP.Gaming.DTO
     {
         public CardInfo[] Cards { get; set; } = Array.Empty<CardInfo>();
         public bool IsHaveFreeze { get; set; }
+        [NonSerialized] public string UserId;
     }
 }
