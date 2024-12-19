@@ -1,4 +1,6 @@
-﻿namespace ServerTCP.Gaming.Datas
+﻿using ServerTCP.Utils.DataScripts;
+
+namespace ServerTCP.Gaming.Datas
 {
     public class HeroSkillData
     {
