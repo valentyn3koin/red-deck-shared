@@ -7,5 +7,6 @@ namespace ServerTCP.Gaming.DTO
     {
         public CardInfo Card { get; set; }
         public PutTypeMinion PutTypeMinion { get; set; }
+        [NonSerialized] public string UserId;
     }
 }
