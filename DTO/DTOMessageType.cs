@@ -9,5 +9,8 @@
         public static string ChangeMinionsOnBoard = "ChangeMinionsOnBoard";
         public static string RefreshTimer = "RefreshTimer";
         public static string ChangeRound = "ChangeRound";
+        public static string RefreshTavern = "RefreshTavern";
+        public static string UpgradeTavern = "UpgradeTavern";
+        public static string RefreshHero = "RefreshHero";
     }
 }
