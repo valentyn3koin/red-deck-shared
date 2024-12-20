@@ -1,4 +1,6 @@
-﻿namespace ServerTCP.Gaming.Messages
+﻿using System;
+
+namespace ServerTCP.Gaming.Messages
 {
     public class ResultBattleMessage 
     {

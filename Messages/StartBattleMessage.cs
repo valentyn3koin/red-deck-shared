@@ -1,4 +1,5 @@
-﻿using ServerTCP.Gaming.Actions;
+﻿using System;
+using ServerTCP.Gaming.Actions;
 
 namespace ServerTCP.Gaming.Messages
 {

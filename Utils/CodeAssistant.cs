@@ -1,15 +1,18 @@
-namespace ServerTCP.Submodule.Utils;
+using System;
 
-public static class CodeAssistant
+namespace ServerTCP.Submodule.Utils
 {
-    public static T RandomElement<T>(this T[] array)
+    public static class CodeAssistant
     {
-        return array[array.RandomIndex()];
-    }
+        public static T RandomElement<T>(this T[] array)
+        {
+            return array[array.RandomIndex()];
+        }
     
-    public static int RandomIndex<T>(this T[] array)
-    {
-        Random random = new Random();
-        return random.Next(0, array.Length);
+        public static int RandomIndex<T>(this T[] array)
+        {
+            Random random = new Random();
+            return random.Next(0, array.Length);
+        }
     }
 }
