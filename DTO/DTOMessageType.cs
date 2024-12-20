@@ -18,5 +18,6 @@
         public static string FilterTarget = "FilterTarget";
         public static string StartBattle = "StartBattle";
         public static string ResultBattle = "ResultBattle";
+        public static string PlayerReady = "PlayerReady";
     }
 }
