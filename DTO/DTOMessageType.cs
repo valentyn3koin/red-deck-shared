@@ -16,5 +16,7 @@
         public static string PutMinionIntoHand = "PutMinionIntoHand";
         public static string ChooseOfThree = "ChooseOfThree";
         public static string FilterTarget = "FilterTarget";
+        public static string StartBattle = "StartBattle";
+        public static string ResultBattle = "ResultBattle";
     }
 }
