@@ -27,41 +27,5 @@ namespace ServerTCP.Gaming.Datas
         public bool ChargeTarget;
         public StatusType[] ViewStatusTypes;
         public bool Stackable;
-
-        /*
-        public StatusData Status(IResourceManager dataResource)
-        {
-            return dataResource.GetStatusDataById(GameStatus);
-        }
-
-        public AbilityData[] ChainAbilities(IResourceManager dataResource)
-        {
-            List<AbilityData> all = new();
-
-            if (ChainAbilitiesIds != null && ChainAbilitiesIds.Length > 0)
-            {
-                foreach (string abilitiesId in ChainAbilitiesIds)
-                {
-                    AbilityData ability = dataResource.GetAbilityDataById(abilitiesId);
-
-                    if (ability != null)
-                    {
-                        all.Add(ability);
-                    }
-                }
-            }
-
-            return all.ToArray();
-        }
-
-        public AbilityModel CreateModel(IResourceManager abliDataResource)
-        {
-            return new(this, abliDataResource);
-        }
-        */
-        public AbilityData[] ChainAbilities()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
