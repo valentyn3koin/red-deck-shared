@@ -6,7 +6,7 @@ namespace ServerTCP.Gaming.Infos
     {
         public string CardUid { get; set; }
         public string CardDataID { get; set; }
-        public ulong OwnerId { get; set; }
+        public string OwnerId { get; set; }
         
         public int Health { get; set; }
         public int Attack { get; set; }
