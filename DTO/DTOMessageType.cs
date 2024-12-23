@@ -19,5 +19,6 @@
         public static string StartBattle = "StartBattle";
         public static string ResultBattle = "ResultBattle";
         public static string PlayerReady = "PlayerReady";
+        public static string ShowTavern = "ShowTavern";
     }
 }
