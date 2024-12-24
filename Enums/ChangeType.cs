@@ -2,10 +2,11 @@
 {
     public enum ChangeType
     {
-        Remove,
-        Add,
-        Freeze,
-        Unfreeze,
-        Buff
+        None = 0,
+        Remove = 1,
+        Add = 2,
+        Freeze = 3,
+        Unfreeze = 4,
+        Buff = 5,
     }
 }
