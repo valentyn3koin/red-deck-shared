@@ -12,6 +12,7 @@
         public static string RefreshTavern = "RefreshTavern";
         public static string UpgradeTavern = "UpgradeTavern";
         public static string RefreshHero = "RefreshHero";
+        public static string RefreshHeroes = "RefreshHeroes";
         public static string PutMinionOnTable = "PutMinionOnTable";
         public static string PutMinionIntoHand = "PutMinionIntoHand";
         public static string ChooseOfThree = "ChooseOfThree";
