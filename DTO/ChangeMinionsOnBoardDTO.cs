@@ -7,8 +7,9 @@ namespace ServerTCP.Gaming.DTO
 {
     public class ChangeMinionsOnBoardDTO
     {
+        public int[] PositionIndexes;
         public ChangeType ChangeType { get; set; }
-        public List<CardInfo> BoardMinions { get; set; } = new List<CardInfo>();
+        public List<CardInfo> BoardMinions { get; set; } = new ();
      
         [NonSerialized] public string UserId;
     }
