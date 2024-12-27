@@ -7,8 +7,8 @@ namespace ServerTCP.Submodule.Datas
     {
         public ScriptableObjectType scriptableType;
         public RaceType raceType;
-        public string[] cardsIds;
-        public string[] summonsIds;
+        public string[] cardsIds = {};
+        public string[] summonsIds = {};
         public string id;
         public string deckName;
     }

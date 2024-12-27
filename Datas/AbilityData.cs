@@ -12,8 +12,8 @@ namespace ServerTCP.Gaming.Datas
         public AbilityTrigger Trigger;
         public AbilityTarget TargetList;
         public AbilityTarget AdditionalList;
-        public AbilityFilterTarget[] FilterTargets;
-        public string[] Ids;
+        public AbilityFilterTarget[] FilterTargets = {};
+        public string[] Ids = {};
         public AbilityType Type;
         public AmountType AmountType;
         public int Value;
@@ -21,11 +21,11 @@ namespace ServerTCP.Gaming.Datas
         public AbilityEffect AbilityEffect;
         public StatusType GameStatus;
         public int Duration;
-        public string[] ChainAbilitiesIds;
+        public string[] ChainAbilitiesIds = {};
         public int ManaCost;
         public bool Exhaust;
         public bool ChargeTarget;
-        public StatusType[] ViewStatusTypes;
+        public StatusType[] ViewStatusTypes = {};
         public bool Stackable;
     }
 }
