@@ -13,13 +13,12 @@
         public static string UpgradeTavern = "UpgradeTavern";
         public static string RefreshHero = "RefreshHero";
         public static string RefreshHeroes = "RefreshHeroes";
-        public static string PutMinionOnTable = "PutMinionOnTable";
-        public static string PutMinionIntoHand = "PutMinionIntoHand";
         public static string ChooseOfThree = "ChooseOfThree";
         public static string FilterTarget = "FilterTarget";
         public static string StartBattle = "StartBattle";
         public static string ResultBattle = "ResultBattle";
         public static string PlayerReady = "PlayerReady";
         public static string ShowTavern = "ShowTavern";
+        public static string ActivateSelectDTO = "ActivateSelectDTO";
     }
 }
