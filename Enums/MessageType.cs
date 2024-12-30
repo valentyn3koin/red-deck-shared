@@ -33,5 +33,7 @@
         public const string WinGame = "WinGame";
         public const string ActivateHeroSkill = "ActivateHeroSkill";
         public const string FilterTargets = "FilterTargets";
+        
+        public const string ChooseSelectTarget = "ChooseSelectTarget";
     }
 }
