@@ -2,7 +2,8 @@
 {
     public class ChooseSelectTargetMessage
     {
-        public string CardUid { get; set; }
+        public string CasterUid { get; set; }
+        public string TargetUid { get; set; }
         public bool IsCancel { get; set; }
     }
 }
