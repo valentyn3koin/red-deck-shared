@@ -2,9 +2,9 @@
 {
     public enum PutTypeMinion
     {
-        Purchase,
-        Draw,
-        Summon,
-        PutOnTable
+        None = 0,
+        Purchase = 1,
+        Draw = 2,
+        Summon = 3,
     }
 }
