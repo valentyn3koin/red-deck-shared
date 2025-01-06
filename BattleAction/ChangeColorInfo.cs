@@ -4,9 +4,9 @@
     {
         public string CharacterUid { get; set; }
 
-        public float Red { get; set; }
-        public float Green { get; set; }
-        public float Blue { get; set; }
-        public float Alpha { get; set; }
+        public byte Red { get; set; }
+        public byte Green { get; set; }
+        public byte Blue { get; set; }
+        public byte Alpha { get; set; }
     }
 }
