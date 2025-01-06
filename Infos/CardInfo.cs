@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ServerTCP.Submodule.Enums;
 
 namespace ServerTCP.Gaming.Infos
 {
@@ -13,5 +14,6 @@ namespace ServerTCP.Gaming.Infos
         public bool IsGold { get; set; }
         public List<CardBuffHistory> BuffHistory { get; set; }
         public List<CardStatusInfo> Statuses { get; set; }
+        public List<MechanicCards> Mechanics { get; set; }
     }
 }
