@@ -18,5 +18,9 @@ namespace ServerTCP.Submodule.Enums
         Poison = 14,
         Vitalize = 15,
         Battlecry = 16,
+        Heal = 17,
+        Draw = 18,
+        Summon = 19,
+        AddGold = 20,
     }
 }
