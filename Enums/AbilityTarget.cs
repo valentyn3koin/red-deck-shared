@@ -23,5 +23,6 @@
         
         AllCardDataCharacters = 79,
         AllCardDataSummons = 80,
+        TakeDamageTarget = 81,
     }
 }
