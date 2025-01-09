@@ -29,5 +29,6 @@
         GainSelfHpMultiplication2 = 19,
         StickyEffect = 20,
         EnrageAddDamageEffect = 21,
+        AddStatusSelect = 22,
     }
 }
