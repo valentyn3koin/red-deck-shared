@@ -10,6 +10,7 @@ namespace ServerTCP.Gaming.Datas
         public int Level;
         public CardType Type;
         public RaceType RaceType;
+        public RareType RareType;
         public string AbilityDataId;
         public string CardName;
         public int Attack;
