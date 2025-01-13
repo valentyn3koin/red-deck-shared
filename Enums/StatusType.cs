@@ -1,5 +1,8 @@
-﻿namespace ServerTCP.Gaming.Enums
+﻿using System;
+
+namespace ServerTCP.Gaming.Enums
 {
+    [Serializable]
     public enum StatusType
     {
         None = 0,
