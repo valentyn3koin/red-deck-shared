@@ -9,6 +9,8 @@
 
         OnPlay = 10,  //When playeds
         OnPlayOther = 12,  //When another card played
+        OnFriendlyBlast = 13,
+        OnFriendlyAddHealth = 14,
 
         StartOfTurn = 20, //Every turn
         EndOfTurn = 22, //Every turn
@@ -20,14 +22,16 @@
         OnKill = 35,        //When killing another card during an attack
         OnTakingDamage = 36, //When taking damage
 
+        OnDeathFriendly = 39,
         OnDeath = 40, //When dying
+        OnFriendlyDeathRattle = 41,
         OnDeathOther = 42, //When another dying
         OnDamaged = 44, //When damaged
         OnSurviveAfterBattle = 46, //When surviving an attack
         OnBattleStart = 47, //When battle starts
         OnReborn = 48,
         OnAvenge = 49,
-        
+         
         OnButtonClick = 50, //When button clicked
     }
 }
