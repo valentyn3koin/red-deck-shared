@@ -31,7 +31,9 @@
         OnBattleStart = 47, //When battle starts
         OnReborn = 48,
         OnAvenge = 49,
-         
+        OnRebornOther = 51,
+        OnBarrierFall = 52,
+
         OnButtonClick = 50, //When button clicked
     }
 }
