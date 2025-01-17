@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ServerTCP.Gaming.Enums;
 using ServerTCP.Submodule.Enums;
 
 namespace ServerTCP.Gaming.Infos
@@ -8,7 +9,7 @@ namespace ServerTCP.Gaming.Infos
         public string CardUid { get; set; }
         public string CardDataID { get; set; }
         public string OwnerId { get; set; }
-        
+        public RaceType RaceType { get; set; }
         public int Health { get; set; }
         public int Attack { get; set; }
         public bool IsGold { get; set; }
