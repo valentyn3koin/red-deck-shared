@@ -35,5 +35,6 @@
         RaceTypePronus = 30,
         RaceTypeRoids = 31,
         RaceTypeWanderers = 32,
+        RandomCardsFilter3 = 33,
     }
 }
