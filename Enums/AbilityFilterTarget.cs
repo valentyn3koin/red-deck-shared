@@ -27,5 +27,13 @@
         RandomPronusCardsFilter1 = 22,
         RandomPronusCardsFilter2 = 23,
         RandomPronusCardsFilter2WithoutChronoTitan = 24,
+        RaceTypeCybernetics = 25,
+        RaceTypeGuardians = 26,
+        RaceTypeKatari = 27,
+        RaceTypeKrox = 28,
+        RaceTypeNeutrals = 29,
+        RaceTypePronus = 30,
+        RaceTypeRoids = 31,
+        RaceTypeWanderers = 32,
     }
 }
