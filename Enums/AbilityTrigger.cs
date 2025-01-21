@@ -21,7 +21,7 @@
         OnAfterDefend = 33, //When being attacked, after damage if still alive
         OnKill = 35,        //When killing another card during an attack
         OnTakingDamage = 36, //When taking damage
-
+        
         OnDeathFriendly = 39,
         OnDeath = 40, //When dying
         OnFriendlyDeathRattle = 41,
@@ -31,9 +31,9 @@
         OnBattleStart = 47, //When battle starts
         OnReborn = 48,
         OnAvenge = 49,
+        OnButtonClick = 50, //When button clicked
         OnRebornOther = 51,
         OnBarrierFall = 52,
-
-        OnButtonClick = 50, //When button clicked
+        OnFriendlyCyberneticDeath = 53,
     }
 }
