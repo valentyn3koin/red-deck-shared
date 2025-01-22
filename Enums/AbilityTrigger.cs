@@ -35,5 +35,6 @@
         OnRebornOther = 51,
         OnBarrierFall = 52,
         OnFriendlyCyberneticDeath = 53,
+        OnDie
     }
 }
