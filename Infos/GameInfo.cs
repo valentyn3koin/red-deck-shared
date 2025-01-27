@@ -1,10 +1,10 @@
 ﻿using ServerTCP.Gaming.Enums;
 using System.Collections.Generic;
 
-namespace ServerTCP.Gaming;
-
-public class GameInfo
+namespace ServerTCP.Gaming
 {
-    public List<RaceType> Races { get; set; }
-    
+    public class GameInfo
+    {
+        public List<RaceType> Races { get; set; }
+    }
 }
