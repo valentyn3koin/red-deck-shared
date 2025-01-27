@@ -35,6 +35,9 @@
         OnRebornOther = 51,
         OnBarrierFall = 52,
         OnFriendlyCyberneticDeath = 53,
-        OnDie
+        OnDie = 54,
+        OnTakingDamageFriendlyKrox = 55,
+        OnEnemyMinionTakesPoisionDamage = 56,
+        OnAttackFriendlyKatari = 57,
     }
 }

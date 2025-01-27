@@ -14,6 +14,6 @@
         StickyEffect = 9,
         EnrageAddDamageEffect = 10,
         AddHpMultiplication = 11,
-        AddAbility,
+        AddAbility = 12,
     }
 }
