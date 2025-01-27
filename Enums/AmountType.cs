@@ -7,5 +7,6 @@
         None = 2,
         CurrentMissingHeroHealth = 3,
         AmountTypeMinionsOnBoardMax4 = 5,
+        AmountTypeMinionsOnBoardMultiply2 = 6,
     }
 }
