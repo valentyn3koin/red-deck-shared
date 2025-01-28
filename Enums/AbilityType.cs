@@ -35,5 +35,6 @@
         Triplet = 85,
         AttackTemp = 86,
         AddAbility = 87,
+        Mirage = 88,
     }
 }

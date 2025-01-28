@@ -15,5 +15,6 @@
         EnrageAddDamageEffect = 10,
         AddHpMultiplication = 11,
         AddAbility = 12,
+        Mirage = 13,
     }
 }
