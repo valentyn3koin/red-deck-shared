@@ -30,5 +30,7 @@
         StickyEffect = 20,
         EnrageAddDamageEffect = 21,
         AddStatusSelect = 22,
+        
+        Mirage = 23,
     }
 }
