@@ -32,5 +32,6 @@
         AddStatusSelect = 22,
         
         Mirage = 23,
+        Battlecry = 24,
     }
 }
