@@ -10,6 +10,7 @@ namespace ServerTCP.Gaming.Infos
         public string CardDataID { get; set; }
         public string OwnerId { get; set; }
         public RaceType RaceType { get; set; }
+        public RareType RareType { get; set; }
         public int Health { get; set; }
         public int Attack { get; set; }
         public bool IsGold { get; set; }
