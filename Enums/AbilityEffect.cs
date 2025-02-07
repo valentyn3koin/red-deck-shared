@@ -16,5 +16,6 @@
         AddHpMultiplication = 11,
         AddAbility = 12,
         Mirage = 13,
+        AddStatus = 14,
     }
 }
